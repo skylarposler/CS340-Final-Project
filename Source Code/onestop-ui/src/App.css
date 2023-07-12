@@ -1,0 +1,137 @@
+/*work is our own*/
+
+/*CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+  margin: 0px;
+  padding: None;
+  font-family: monospace;
+}
+
+body{
+  background-color: #121212;
+  color: #e6e6e6;
+}
+
+main{
+  background-color: #333333;
+  color: #e6e6e6;
+  width: 90vw;
+  margin: auto;
+  border-left: 1px solid #666666;
+  border-right: 1px solid #666666;
+  border-bottom: 1px solid #666666;
+  border-radius: 0px 0px 20px 20px;
+  padding: 1em;
+}
+
+
+.navigation-bar {
+  display: flex;
+  list-style: none;
+  background-color: black;
+  color: white;
+  font-size: 1.25em;
+}
+
+.navigation-bar li{
+  padding: 1em;
+  font-family: 'Roboto Condensed', sans-serif;
+  
+}
+
+.navigation-bar li:hover{
+  background-color: #333333;
+}
+
+.navigation-bar a{
+  color: white;
+  text-decoration: none;
+  min-height: 100%;
+}
+
+.navigation-bar a:hover{
+  color: #ffffff;
+  text-decoration: none;
+  
+  
+}
+
+h1{
+  padding-left: 4vw;
+  background-color: #c27e00;
+  font-size: 2.5rem;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+table{
+  font-size: 1em;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+th{
+  border: 1px solid #c27e00;
+}
+tr:nth-child(odd){
+  background-color: #222222;
+}
+
+th:first-of-type{
+  border-left: 1px solid #c27e00;
+}
+
+
+td:first-of-type{
+  border-left: 1px solid #c27e00;
+}
+
+td{
+  border: 1px solid #c27e00;
+  padding:5px;
+}
+
+
+
+form{
+  margin-top: 2em;
+  display: flex;
+  flex-flow: column;
+  width: 15%;
+}
+
+main p{
+  margin-bottom: 1em;
+}
+
+.table-button{
+  border: none;
+  width: 50px;
+  background-color: #333333;
+}
+
+input{
+  background-color: #222222;
+  border: 1px solid #666666;
+  color: #e6e6e6;
+  border-radius: 5px;
+  font-family: monospace;
+}
+
+
+
+select{
+  background-color: #222222;
+  border: 1px solid #666666;
+  color: #e6e6e6;
+  border-radius: 5px;
+  font-family: monospace;
+  display: flex;
+  flex-flow: column;
+}
+
+footer{
+  text-align: center;
+}
+
